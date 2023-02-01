@@ -1,6 +1,5 @@
 /* 
 - rem and em DO NOT depend on html font-size in media queries -
-
 - in media queries --> 1rem = 1em = 16px -
 */
 
@@ -117,11 +116,8 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
-    /* 1 - Hide Navigation */
     opacity: 0;
-    /* 2 - Make it unaccessible to mouse and keyboard */
     pointer-events: none;
-    /* 3 - Hide it from screen readers */
     visibility: hidden;
   }
 
