@@ -97,6 +97,12 @@
   padding: 0 4.8rem;
 }
 
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .hero-text {
   color: #afafaf;
   font-size: 3rem;
